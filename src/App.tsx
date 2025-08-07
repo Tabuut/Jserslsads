@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/toaster";
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/hooks/use-toast"; // المسار الصحيح لـ useToast هو في مجلد hooks
 
 function App() {
   const { toast } = useToast();
@@ -11,8 +11,8 @@ function App() {
         <Button
           onClick={() => {
             toast({
-              title: "Scheduled: Catch up",
-              description: "Friday, February 10, 2023 at 5:57 PM",
+              title: "Build Successful!",
+              description: "All components and configurations are now correct.",
             });
           }}
         >
