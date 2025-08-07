@@ -1,6 +1,7 @@
-import { Button } from "./components/ui/button";
-import { useToast } from "./components/ui/use-toast";
-import { Toaster } from "./components/ui/toaster"; // تم تصحيح مسار الاستيراد هنا
+// تم تعديل المسارات لتكون مطلقة من مجلد المصدر (src)
+import { Button } from "components/ui/button";
+import { useToast } from "components/ui/use-toast";
+import { Toaster } from "components/ui/toaster";
 
 function App() {
   const { toast } = useToast();
