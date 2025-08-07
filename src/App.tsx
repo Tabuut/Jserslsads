@@ -1,7 +1,7 @@
-// تم تعديل المسارات لتكون مطلقة من مجلد المصدر (src)
-import { Button } from "components/ui/button";
-import { useToast } from "components/ui/use-toast";
-import { Toaster } from "components/ui/toaster";
+// تم تعديل المسارات لاستخدام الاسم المستعار @
+import { Button } from "@/components/ui/button";
+import { Toaster } from "@/components/ui/toaster";
+import { useToast } from "@/components/ui/use-toast";
 
 function App() {
   const { toast } = useToast();
